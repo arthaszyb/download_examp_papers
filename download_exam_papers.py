@@ -17,7 +17,6 @@ download_dir = f"/Users/sean.zhou/Downloads/testpapersfree/{grade}/{subject_choo
 #The main domain name
 domain_name = "https://www.testpapersfree.com"
 
-
 def download_pdf(url: str, save_path: str) -> None:
     '''
     Check if the directory exists, if not, create it.
